@@ -8,9 +8,159 @@
 </head>
 
 <body>
+    <style>
+        /* body {
+            color: #000;
+            background-color: #fcfcfc;
+            max-width: 1200px;
+            width: 90%;
+            margin-right: auto;
+            margin-right: auto;
+        }
+
+        li {
+            display: inline-block;
+
+        } */
+
+        body {
+            color: #fff;
+            font-family: "Helvetica Neue", Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        #player {
+            border-radius: 12px;
+            overflow: hidden;
+            background-color: #000;
+        }
+
+        form {
+            margin: 20px 0;
+            display: flex;
+            gap: 8px;
+        }
+
+        #ytSearch {
+            padding: 10px 15px;
+            border-radius: 20px;
+            border: #000 solid 0.1px;
+            width: 250px;
+        }
+
+        #searchBtn {
+            padding: 8px 20px;
+            border-radius: 20px;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        #searchBtn:hover {
+            background: #cc0000;
+        }
+
+        nav {
+            background: #282828;
+            padding: 20px;
+            border-radius: 15px;
+            width: 100%;
+            max-width: 600px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        li[id^="do"],
+        li#mute {
+            background: #444;
+            padding: 8px 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.2s;
+            user-select: none;
+            border-bottom: 3px solid #222;
+        }
+
+        li[id^="do"]:hover,
+        li#mute:hover {
+            background: #555;
+            transform: translateY(-2px);
+        }
+
+        li[id^="do"]:active,
+        li#mute:active {
+            transform: translateY(1px);
+            border-bottom: 0;
+        }
+
+        label,
+        #volumeNum {
+            font-size: 13px;
+            color: #aaa;
+        }
+
+        input[type="range"] {
+            vertical-align: middle;
+            cursor: pointer;
+        }
+
+        #MovieId {
+            padding: 5px 10px;
+            border-radius: 5px;
+            background: #333;
+            color: white;
+            border: 1px solid #555;
+        }
+
+        #doSpeed {
+            display: flex;
+            gap: 10px;
+            background: #333;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 12px;
+        }
+
+        #doSpeed input[type="radio"] {
+            display: none;
+        }
+
+        #doSpeed label {
+            cursor: pointer;
+            padding: 2px 8px;
+            border-radius: 10px;
+            transition: 0.2s;
+        }
+
+        #doSpeed input[type="radio"]:checked+label {
+            background: #ff0000;
+            color: white;
+        }
+    </style>
     <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
     <!-- 1. ここの<div>タグがYoutubeの<iframe>に置き換わる。 -->
     <div id="player"></div>
+    <form>
+        <input type="search" id="ytSearch" value="ジャルジャル" />
+        <button id="searchBtn">検索</button>
+    </form>
+
+    <!-- <select class="searchlist"></select> -->
+
     <nav>
         <ul>
             <li id="doplay">再生</li>
@@ -25,10 +175,6 @@
             <li>
                 <select id="MovieId" class="ytMovie" name="ytMovie">
                     <option selected>選択してください。</option>
-                    <option value="OEuhvu-Yi5E">UFO山(1)</option>
-                    <option value="XaK6TuN6xFc">UFO山(2)</option>
-                    <option value="krMDIHzghMY">UFO山(3)</option>
-                    <option value="HG1pxAUUrlQ">UFO山(4)</option>
                 </select>
             </li>
             <li>
@@ -217,6 +363,55 @@
             //数値でないと効かないので、文字列から数値に変換
             //htmlで取得する数値は必ず全て文字列
             playSpeed(parseFloat(speedBtn.speed.value));
+        });
+    </script>
+    <script>
+        const USE_LOCAL = true; // 開発中はtrue、本番APIを叩きたいときはfalse
+        const selectvideo = document.querySelector(".ytMovie");
+
+        //関数を定義(関数式)
+        function ytSearch(val) {
+            const key = 'AIzaSyAFGOBcXC79aM6FlsBWzrnfLw2h4rDW-t4'; //自分のキーに書き換えます。
+            const num = 10;
+            const part = 'snippet';
+            const type = 'video';
+            const query = val;
+
+            //YouTube APIエンドポイント
+            const apiUrl = `https://www.googleapis.com/youtube/v3/search?type=${type}&part=${part}&maxResults=${num}&key=${key}&q=${query}&playsinline=1`;
+
+            //ローカル用のダミーデータ
+            const localUrl = './data/sample.json';
+            fetch(USE_LOCAL ? localUrl : apiUrl)//三項演算子
+                .then((data) => data.json())
+                .then((obj) => {
+                    for (let movie of obj['items']) {
+                        console.log(movie["id"]["videoId"]);
+                        console.log(movie["snippet"]["title"]);
+
+                        //変数に入れる
+                        const ytId = movie['id']['videoId'];
+                        const ytTitle = movie['snippet']['title'];
+                        //optionを作成して、videoIdとtitleを所定の場所に設置し、要素を追加していく。
+                        selectvideo.innerHTML += `<option value="${ytId}">${ytTitle}</option>`
+                        // const optionTag = document.createElement('option');
+                        // optionTag.textContent = ytTitle;
+                        // optionTag.setAttribute('value', ytId);
+                        // selectvideo.appendChild(optionTag);
+                    }
+                });
+        }
+
+        const ytSearchBtn = document.querySelector('#searchBtn');
+        ytSearchBtn.addEventListener('click', function (e) {
+            //初期化
+            selectvideo.innerHTML = "";
+            const ytSearchVal = document.querySelector('#ytSearch').value;
+            console.log(ytSearchVal); //検索フォームの値を取得
+
+            e.preventDefault(); //検索ボタンの送信をストップしておく。
+            //関数の実行+引数
+            ytSearch(ytSearchVal);
         });
     </script>
 </body>

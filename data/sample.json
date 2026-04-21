@@ -1,0 +1,352 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "cIQOIGGtBG7ZTPnOX24yMkXfO_I",
+    "nextPageToken": "CAoQAA",
+    "regionCode": "JP",
+    "pageInfo": {
+        "totalResults": 26729,
+        "resultsPerPage": 10
+    },
+    "items": [
+        {
+            "kind": "youtube#searchResult",
+            "etag": "oeV_Eiqbb9d56glw9DMzK595pa0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "nTCpegladLs"
+            },
+            "snippet": {
+                "publishedAt": "2026-04-14T09:01:11Z",
+                "channelId": "UChwgNUWPM-ksOP3BbfQHS5Q",
+                "title": "『バイト面接の質問でバックヤード泥棒ってバレる奴』ジャルジャルのネタのタネ【JARUJARUTOWER】",
+                "description": "このチャンネルはジャルジャルの公式チャンネルです！ 日々の活動をドンドンUPしていきます！ ジャルジャルがネタ帳に ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/nTCpegladLs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/nTCpegladLs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/nTCpegladLs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "ジャルジャルタワー JARUJARU TOWER",
+                "liveBroadcastContent": "none",
+                "publishTime": "2026-04-14T09:01:11Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "NRiwEs9IiUlcPazQTNF2SwLwQEU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Oaxqqv6p_rE"
+            },
+            "snippet": {
+                "publishedAt": "2026-03-01T23:00:06Z",
+                "channelId": "UCf-wG6PlxW7rpixx1tmODJw",
+                "title": "「銀行」のこと「ちんこう」って言ってしまい去る銀行員の奴",
+                "description": "特別出演：ネタサロン「ジャルジャルに興味ある奴」会員 https://www.jarujaru-kyomi.com/ 【ジャルジャルアイランドは月〜 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Oaxqqv6p_rE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Oaxqqv6p_rE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Oaxqqv6p_rE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "ジャルジャルアイランド JARUJARU ISLAND",
+                "liveBroadcastContent": "none",
+                "publishTime": "2026-03-01T23:00:06Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "UuJjI4bcPitI6UAyzDWkqYbBsQ0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Hn98OV2pdtc"
+            },
+            "snippet": {
+                "publishedAt": "2026-04-19T23:00:06Z",
+                "channelId": "UCf-wG6PlxW7rpixx1tmODJw",
+                "title": "バイト面接で「テラス席自慢してる店で働きたい」って言う奴",
+                "description": "ジャルジャルアイランドは月〜金曜日更新!!】 月曜日：日常撮る奴（8時プレミア公開） 火曜日/水曜日/金曜日：日常撮る奴（21時 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Hn98OV2pdtc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Hn98OV2pdtc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Hn98OV2pdtc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "ジャルジャルアイランド JARUJARU ISLAND",
+                "liveBroadcastContent": "none",
+                "publishTime": "2026-04-19T23:00:06Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "5TlptA7znaDiZZFE1pas99RCPmQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "ZNZ594SlezI"
+            },
+            "snippet": {
+                "publishedAt": "2026-03-15T23:00:07Z",
+                "channelId": "UCf-wG6PlxW7rpixx1tmODJw",
+                "title": "リサイクルショップのバイト辞める日にお店の制服を売ろうとする奴",
+                "description": "撮影協力：スマイルカンパニー厚木店 https://www.re-smilecompany.com 【ジャルジャルアイランドは月〜金曜日更新!",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ZNZ594SlezI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ZNZ594SlezI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ZNZ594SlezI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "ジャルジャルアイランド JARUJARU ISLAND",
+                "liveBroadcastContent": "none",
+                "publishTime": "2026-03-15T23:00:07Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "ctPzCVM16tacnpnjrlRhsgSqccc",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "4-WX3lGNhXY"
+            },
+            "snippet": {
+                "publishedAt": "2025-05-11T23:00:06Z",
+                "channelId": "UCf-wG6PlxW7rpixx1tmODJw",
+                "title": "午前中しかシフト入れないくせにBarのバイト面接に来る奴",
+                "description": "ジャルジャルアイランドは月〜金曜日更新!!】 月曜日：日常撮る奴（8時プレミア公開） 火曜日/水曜日/金曜日：日常撮る奴（21時 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/4-WX3lGNhXY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/4-WX3lGNhXY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/4-WX3lGNhXY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "ジャルジャルアイランド JARUJARU ISLAND",
+                "liveBroadcastContent": "none",
+                "publishTime": "2025-05-11T23:00:06Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "2TVDiFLe83WTae1X_UcdVAkCGQ0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "vMF5vMOqvz8"
+            },
+            "snippet": {
+                "publishedAt": "2025-12-23T09:01:34Z",
+                "channelId": "UChwgNUWPM-ksOP3BbfQHS5Q",
+                "title": "『バイト面接で時給聞いて反射的に「やっす！ありえへん！」って言う奴』ジャルジャルのネタのタネ【JARUJARUTOWER】",
+                "description": "このチャンネルはジャルジャルの公式チャンネルです！ 日々の活動をドンドンUPしていきます！ ジャルジャルがネタ帳に ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/vMF5vMOqvz8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/vMF5vMOqvz8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/vMF5vMOqvz8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "ジャルジャルタワー JARUJARU TOWER",
+                "liveBroadcastContent": "none",
+                "publishTime": "2025-12-23T09:01:34Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "ApsmzG7e0vInFJMurngTQ65ZXZM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "1OUivd7MXUU"
+            },
+            "snippet": {
+                "publishedAt": "2025-05-25T23:00:06Z",
+                "channelId": "UCf-wG6PlxW7rpixx1tmODJw",
+                "title": "医療知識ゼロで医師に弟子入りを直談判する奴",
+                "description": "ジャルジャルアイランドは月〜金曜日更新!!】 月曜日：日常撮る奴（8時プレミア公開） 火曜日/水曜日/金曜日：日常撮る奴（21時 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/1OUivd7MXUU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/1OUivd7MXUU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/1OUivd7MXUU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "ジャルジャルアイランド JARUJARU ISLAND",
+                "liveBroadcastContent": "none",
+                "publishTime": "2025-05-25T23:00:06Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "A9IWaQzBD0R6K5JEyDJmdJVicww",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "AOtvUnalVYc"
+            },
+            "snippet": {
+                "publishedAt": "2019-05-12T03:00:00Z",
+                "channelId": "UChwgNUWPM-ksOP3BbfQHS5Q",
+                "title": "１億回記念！本気ネタ！『ハズレの先生が担任になった奴』【JARUJARUTOWER】",
+                "description": "ジャルジャルが毎日１本ネタを無料配信するYoutube公式チャンネル「JARU JARU TOWER」で配信している動画の合計再生回数 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/AOtvUnalVYc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/AOtvUnalVYc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/AOtvUnalVYc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "ジャルジャルタワー JARUJARU TOWER",
+                "liveBroadcastContent": "none",
+                "publishTime": "2019-05-12T03:00:00Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "pMwvRcZuPxHjRCSOuGwE_vja5Og",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "ub7noQDYU9g"
+            },
+            "snippet": {
+                "publishedAt": "2026-01-11T23:00:08Z",
+                "channelId": "UCf-wG6PlxW7rpixx1tmODJw",
+                "title": "フレンチレストランのバイト面接で「まかないも当然フレンチですよね？」って聞く奴",
+                "description": "ジャルジャルアイランドは月〜金曜日更新!!】 月曜日：日常撮る奴（8時プレミア公開） 火曜日/水曜日/金曜日：日常撮る奴（21時 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ub7noQDYU9g/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ub7noQDYU9g/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ub7noQDYU9g/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "ジャルジャルアイランド JARUJARU ISLAND",
+                "liveBroadcastContent": "none",
+                "publishTime": "2026-01-11T23:00:08Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "YfbPO3_Ri6yKIHvkPOmzXuJtUpg",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "q17adFfg__s"
+            },
+            "snippet": {
+                "publishedAt": "2025-12-22T09:01:23Z",
+                "channelId": "UChwgNUWPM-ksOP3BbfQHS5Q",
+                "title": "『隣の入院患者に話しかけたらものすごいヤンキーやった奴』ジャルジャルのネタのタネ【JARUJARUTOWER】",
+                "description": "このチャンネルはジャルジャルの公式チャンネルです！ 日々の活動をドンドンUPしていきます！ ジャルジャルがネタ帳に ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/q17adFfg__s/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/q17adFfg__s/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/q17adFfg__s/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "ジャルジャルタワー JARUJARU TOWER",
+                "liveBroadcastContent": "none",
+                "publishTime": "2025-12-22T09:01:23Z"
+            }
+        }
+    ]
+}
